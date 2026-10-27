@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#17634a">
+<title>propertydallals | Land & Flats in Jharkhand</title>
+<style>
+:root{--green:#17634a;--green2:#0d4735;--mint:#e8f4ed;--ink:#17251f;--muted:#65736b;--line:#dce6df;--bg:#f7faf8;--white:#fff;--gold:#f4c96b}
+*{box-sizing:border-box}body{margin:0;font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;background:var(--bg);color:var(--ink)}a{color:inherit}button,input,select,textarea{font:inherit}button{cursor:pointer}.wrap{width:min(1120px,92%);margin:auto}
+header{background:#fff;border-bottom:1px solid var(--line);position:sticky;top:0;z-index:10}.nav{height:72px;display:flex;align-items:center;justify-content:space-between;gap:18px}.brand{display:flex;align-items:center;gap:10px;font-weight:850;font-size:1.25rem;letter-spacing:-.5px;text-decoration:none}.logo{display:grid;place-items:center;width:39px;height:39px;background:var(--green);color:#fff;border-radius:12px;font-size:1.2rem}.navlinks{display:flex;align-items:center;gap:22px}.navlinks a{text-decoration:none;font-size:.94rem;color:#405148}.btn{border:0;border-radius:10px;background:var(--green);color:white;padding:12px 17px;font-weight:700;display:inline-flex;justify-content:center;align-items:center;gap:7px;text-decoration:none}.btn:hover{background:var(--green2)}.btn.secondary{background:#fff;color:var(--green);border:1px solid var(--line)}.btn.small{padding:9px 12px;font-size:.9rem}
+.hero{background:linear-gradient(110deg,#123f30 0%,#17634a 60%,#327b5d 100%);color:white;padding:62px 0 52px;overflow:hidden}.hero-grid{display:grid;grid-template-columns:1.1fr .9fr;align-items:center;gap:40px}.eyebrow{font-size:.8rem;font-weight:800;text-transform:uppercase;letter-spacing:1.5px;color:#cce7d6}.hero h1{font-size:clamp(2.3rem,5vw,4rem);line-height:1.04;letter-spacing:-1.8px;margin:14px 0}.hero p{color:#e1f0e7;max-width:540px;line-height:1.65;font-size:1.05rem}.hero-art{border-radius:24px;overflow:hidden;min-height:290px;background:#dcece1;box-shadow:0 18px 60px #092f2440}.hero-art img{width:100%;height:330px;object-fit:cover;display:block}.searchbox{margin-top:26px;background:white;padding:12px;border-radius:16px;display:grid;grid-template-columns:1.2fr 1fr 1fr auto;gap:9px;box-shadow:0 12px 30px #082e201c}.field{display:flex;flex-direction:column;gap:5px;padding:3px 8px}.field label{font-size:.75rem;color:var(--muted);font-weight:700}.field input,.field select{width:100%;border:0;outline:0;background:white;color:var(--ink);min-width:0;padding:4px 0}.searchbox .btn{align-self:stretch}
+.section{padding:54px 0}.section-head{display:flex;align-items:end;justify-content:space-between;gap:20px;margin-bottom:24px}.section h2{font-size:clamp(1.6rem,3vw,2.15rem);letter-spacing:-.7px;margin:0 0 8px}.section-head p{margin:0;color:var(--muted)}.filters{display:flex;gap:8px;flex-wrap:wrap}.chip{border:1px solid var(--line);background:#fff;color:#405148;border-radius:999px;padding:9px 15px;font-weight:700;font-size:.88rem}.chip.active,.chip:hover{background:var(--mint);border-color:#a8cbb6;color:var(--green)}
+.cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}.card{background:white;border:1px solid var(--line);border-radius:16px;overflow:hidden;transition:transform .18s,box-shadow .18s}.card:hover{transform:translateY(-3px);box-shadow:0 12px 28px #163d2810}.photo{height:205px;position:relative;background:#e4ece6}.photo img{width:100%;height:100%;object-fit:cover;display:block}.tag{position:absolute;left:12px;top:12px;background:white;border-radius:7px;padding:6px 9px;font-size:.76rem;font-weight:800;color:var(--green)}.card-body{padding:17px}.price{font-size:1.35rem;font-weight:850;letter-spacing:-.4px;color:var(--green)}.card h3{margin:8px 0;font-size:1.08rem}.loc{font-size:.9rem;color:var(--muted);display:flex;align-items:center;gap:5px}.specs{display:flex;gap:13px;flex-wrap:wrap;border-top:1px solid var(--line);margin-top:14px;padding-top:13px;font-size:.82rem;color:#536259}.card-actions{display:flex;gap:8px;margin-top:16px}.card-actions .btn{flex:1}.empty{grid-column:1/-1;text-align:center;padding:45px 20px;background:#fff;border:1px dashed var(--line);border-radius:16px;color:var(--muted)}
+.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.step{padding:22px;border:1px solid var(--line);border-radius:15px;background:white}.step .num{width:36px;height:36px;border-radius:10px;background:var(--mint);display:grid;place-items:center;color:var(--green);font-weight:850}.step h3{margin:14px 0 7px}.step p{margin:0;color:var(--muted);line-height:1.55;font-size:.94rem}
+.cta{background:#e9f4ec;border:1px solid #d2e7d8;border-radius:20px;padding:32px;display:flex;justify-content:space-between;align-items:center;gap:20px}.cta h2{margin:0 0 8px}.cta p{margin:0;color:#52665a}
+footer{background:#102f24;color:#dcebe1;padding:34px 0;margin-top:30px}.foot{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}.foot p{color:#b4cabe;margin:8px 0 0;font-size:.88rem}.footlinks{display:flex;gap:18px;align-items:center;flex-wrap:wrap}.footlinks a{color:#dcebe1;text-decoration:none;font-size:.9rem}
+dialog{border:0;border-radius:18px;width:min(620px,92vw);padding:0;box-shadow:0 25px 90px #0004;max-height:90vh;overflow:auto}dialog::backdrop{background:#10251dbb}.modal-head{padding:22px 24px;border-bottom:1px solid var(--line);display:flex;align-items:center;justify-content:space-between}.modal-head h2{margin:0;font-size:1.3rem}.close{border:0;background:#f1f5f2;border-radius:9px;width:35px;height:35px;font-size:1.2rem}.form{padding:22px 24px;display:grid;grid-template-columns:1fr 1fr;gap:14px}.form .full{grid-column:1/-1}.form label{display:block;font-weight:750;font-size:.85rem;margin-bottom:6px}.form input,.form select,.form textarea{width:100%;padding:11px 12px;border:1px solid #cfdcd3;border-radius:9px;background:white;outline-color:var(--green)}.form textarea{min-height:85px;resize:vertical}.form .help{font-size:.78rem;color:var(--muted);line-height:1.5}.form-actions{display:flex;justify-content:flex-end;gap:10px}.toast{position:fixed;bottom:20px;left:50%;transform:translateX(-50%);background:#102f24;color:white;padding:13px 18px;border-radius:12px;z-index:30;box-shadow:0 8px 24px #0002;display:none;max-width:90vw}.notice{font-size:.82rem;color:var(--muted);line-height:1.5;margin-top:16px}
+@media(max-width:800px){.hero-grid{grid-template-columns:1fr}.hero-art{display:none}.searchbox{grid-template-columns:1fr 1fr}.searchbox .btn{grid-column:1/-1}.cards{grid-template-columns:repeat(2,minmax(0,1fr))}.navlinks a:not(.btn){display:none}.steps{grid-template-columns:1fr}.cta{align-items:flex-start;flex-direction:column}}
+@media(max-width:520px){.hero{padding:44px 0 36px}.searchbox{grid-template-columns:1fr}.searchbox .btn{grid-column:auto}.cards{grid-template-columns:1fr}.photo{height:220px}.section{padding:38px 0}.section-head{align-items:flex-start;flex-direction:column}.form{grid-template-columns:1fr}.form .full{grid-column:auto}.nav{height:64px}.brand{font-size:1.1rem}.cta{padding:23px}}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap nav">
+    <a class="brand" href="#" aria-label="propertydallals home"><span class="logo">⌂</span><span>property<span style="color:#17634a">dallals</span></span></a>
+    <nav class="navlinks"><a href="#properties">Browse properties</a><a href="#how">How it works</a><button class="btn small" onclick="openListing()">＋ Post a property</button></nav>
+  </div>
+</header>
+<main>
+<section class="hero">
+ <div class="wrap hero-grid">
+  <div>
+   <div class="eyebrow">Jharkhand real estate made simple</div>
+   <h1>Find a place to<br>call your own.</h1>
+   <p>Explore land, plots and flats across Jharkhand. Compare prices, see property photos and connect directly with owners or agents.</p>
+   <div class="searchbox" role="search">
+    <div class="field"><label for="q">LOCATION OR KEYWORD</label><input id="q" placeholder="e.g. Jamshedpur, Ranchi"></div>
+    <div class="field"><label for="type">PROPERTY TYPE</label><select id="type"><option value="all">All properties</option><option value="Flat">Flats</option><option value="Land">Land & plots</option></select></div>
+    <div class="field"><label for="budget">MAXIMUM BUDGET</label><select id="budget"><option value="any">Any budget</option><option value="1000000">Up to ₹10 lakh</option><option value="2500000">Up to ₹25 lakh</option><option value="5000000">Up to ₹50 lakh</option><option value="10000000">Up to ₹1 crore</option></select></div>
+    <button class="btn" onclick="applySearch()">Search ↗</button>
+   </div>
+  </div>
+  <div class="hero-art"><img src="https://images.unsplash.com/photo-1600591573913-1b9f8a8b8c7d?auto=format&fit=crop&w=1000&q=85" alt="Modern home exterior"></div>
+ </div>
+</section>
+<section class="section" id="properties">
+ <div class="wrap">
+  <div class="section-head"><div><h2>Explore properties</h2><p>Find a home or land that fits your plans.</p></div><div class="filters"><button class="chip active" data-filter="all" onclick="setFilter('all',this)">All properties</button><button class="chip" data-filter="Flat" onclick="setFilter('Flat',this)">Flats</button><button class="chip" data-filter="Land" onclick="setFilter('Land',this)">Land & plots</button></div></div>
+  <div class="cards" id="cards"></div>
+  <p class="notice">Demo listings are examples to demonstrate the website. Confirm ownership, title, approvals, measurements and all documents independently before paying any amount. Propertydallals does not verify these sample listings.</p>
+ </div>
+</section>
+<section class="section" id="how" style="background:#f0f6f2">
+ <div class="wrap"><div class="section-head"><div><h2>Buying or selling, made easier</h2><p>A straightforward way to connect with property owners and buyers.</p></div></div>
+  <div class="steps">
+   <div class="step"><div class="num">1</div><h3>Find a property</h3><p>Search by location, property type and budget to narrow down your options.</p></div>
+   <div class="step"><div class="num">2</div><h3>Contact directly</h3><p>Use the available contact options to ask questions and arrange a visit.</p></div>
+   <div class="step"><div class="num">3</div><h3>Post your listing</h3><p>Add the price, location, details and a photo to introduce your property to buyers.</p></div>
+  </div>
+ </div>
+</section>
+<section class="section"><div class="wrap"><div class="cta"><div><h2>Have a property to sell?</h2><p>List your land or flat and help the right buyer find it.</p></div><button class="btn" onclick="openListing()">＋ Post a property</button></div></div></section>
+</main>
+<footer><div class="wrap foot"><div><a class="brand" href="#" style="color:white"><span class="logo" style="background:#2d7757">⌂</span><span>propertydallals</span></a><p>Land & flats across Jharkhand, India.</p></div><div class="footlinks"><a href="#properties">Browse</a><a href="#how">How it works</a><a href="mailto:hello@propertydallals.example">Email us</a></div></div></footer>
+<dialog id="listingDialog">
+ <div class="modal-head"><h2>Post a property</h2><button class="close" onclick="closeListing()" aria-label="Close">×</button></div>
+ <form class="form" id="listingForm">
+  <div><label for="sellerName">Your name *</label><input id="sellerName" required placeholder="Full name"></div>
+  <div><label for="sellerPhone">Phone number *</label><input id="sellerPhone" required type="tel" placeholder="+91 ..." pattern="[0-9+ ()-]{8,18}"></div>
+  <div><label for="pType">Property type *</label><select id="pType" required><option value="Flat">Flat / apartment</option><option value="Land">Land / plot</option></select></div>
+  <div><label for="pPrice">Price (₹) *</label><input id="pPrice" type="number" min="1" required placeholder="e.g. 2500000"></div>
+  <div><label for="pTitle">Listing title *</label><input id="pTitle" required placeholder="e.g. 2 BHK flat near market"></div>
+  <div><label for="pLocation">Location in Jharkhand *</label><input id="pLocation" required placeholder="City / area"></div>
+  <div><label for="pSize">Size / area *</label><input id="pSize" required placeholder="e.g. 1200 sq ft or 3 decimals"></div>
+  <div><label for="pBeds">Bedrooms (flats only)</label><select id="pBeds"><option value="">Not applicable</option><option>1 BHK</option><option>2 BHK</option><option>3 BHK</option><option>4+ BHK</option></select></div>
+  <div class="full"><label for="pPhoto">Photo URL (optional)</label><input id="pPhoto" type="url" placeholder="https://..."><div class="help">For this starter version, use a publicly accessible image URL. Photo uploads and permanent online storage can be added in the next setup step.</div></div>
+  <div class="full"><label for="pDesc">Description</label><textarea id="pDesc" placeholder="Mention road access, nearby facilities, property features..."></textarea></div>
+  <div class="full help">This starter version saves submitted listings only in this browser. It does not publish them to all visitors or send them to an admin yet. Connect a database before public launch.</div>
+  <div class="full form-actions"><button type="button" class="btn secondary" onclick="closeListing()">Cancel</button><button type="submit" class="btn">Save listing</button></div>
+ </form>
+</dialog>
+<div class="toast" id="toast" role="status"></div>
+<script>
+const seed = [
+ {id:'d1',type:'Flat',title:'Bright 2 BHK Apartment',location:'Mango, Jamshedpur',price:2850000,size:'1,050 sq ft',beds:'2 BHK',desc:'Illustrative sample listing. Confirm all details with the seller.',photo:'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=900&q=80',phone:'',name:'Sample listing'},
+ {id:'d2',type:'Land',title:'Residential Plot Near Main Road',location:'Adityapur, Saraikela-Kharsawan',price:1250000,size:'1,800 sq ft',beds:'',desc:'Illustrative sample listing. Confirm title, boundaries and approvals.',photo:'https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=900&q=80',phone:'',name:'Sample listing'},
+ {id:'d3',type:'Flat',title:'Family 3 BHK Flat',location:'Morabadi, Ranchi',price:4650000,size:'1,420 sq ft',beds:'3 BHK',desc:'Illustrative sample listing. Verify the property and paperwork.',photo:'https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?auto=format&fit=crop&w=900&q=80',phone:'',name:'Sample listing'},
+ {id:'d4',type:'Land',title:'Open Plot in Developing Area',location:'Hatia, Ranchi',price:1850000,size:'2,400 sq ft',beds:'',desc:'Illustrative sample listing. Visit and independently verify all documents.',photo:'https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=900&q=80',phone:'',name:'Sample listing'},
+ {id:'d5',type:'Flat',title:'Compact 1 BHK Apartment',location:'Bistupur, Jamshedpur',price:1950000,size:'680 sq ft',beds:'1 BHK',desc:'Illustrative sample listing. Confirm price and availability.',photo:'https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=900&q=80',phone:'',name:'Sample listing'},
+ {id:'d6',type:'Land',title:'Plot for Your Future Home',location:'Dhanbad, Jharkhand',price:950000,size:'1,500 sq ft',beds:'',desc:'Illustrative sample listing. Check legal status and access before purchase.',photo:'https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=900&q=80',phone:'',name:'Sample listing'}
+];
+let filter='all';
+const getUserListings=()=>{try{return JSON.parse(localStorage.getItem('pd_listings')||'[]')}catch(e){return []}};
+function allListings(){return [...getUserListings(),...seed]}
+function money(n){return new Intl.NumberFormat('en-IN',{style:'currency',currency:'INR',maximumFractionDigits:0}).format(Number(n))}
+function esc(s){return String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))}
+function render(){
+ const q=(document.getElementById('q')?.value||'').trim().toLowerCase();
+ const type=document.getElementById('type')?.value||'all';
+ const budget=document.getElementById('budget')?.value||'any';
+ const items=allListings().filter(p=>(filter==='all'||p.type===filter)&&(type==='all'||p.type===type)&&(!q||(p.location+' '+p.title+' '+p.desc).toLowerCase().includes(q))&&(budget==='any'||Number(p.price)<=Number(budget)));
+ const root=document.getElementById('cards');
+ if(!items.length){root.innerHTML='<div class="empty"><h3>No properties found</h3><p>Try a different location, type or budget.</p><button class="btn secondary" onclick="resetSearch()">Clear filters</button></div>';return}
+ root.innerHTML=items.map(p=>`<article class="card"><div class="photo"><img src="${esc(p.photo||'https://images.unsplash.com/photo-1600591573913-1b9f8a8b8c7d?auto=format&fit=crop&w=900&q=80')}" alt="${esc(p.title)}" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1600591573913-1b9f8a8b8c7d?auto=format&fit=crop&w=900&q=80'"><span class="tag">${esc(p.type==='Land'?'Land & plot':'Flat / apartment')}</span></div><div class="card-body"><div class="price">${money(p.price)}</div><h3>${esc(p.title)}</h3><div class="loc">⌖ ${esc(p.location)}</div><div class="specs"><span>▱ ${esc(p.size)}</span>${p.beds?`<span>▦ ${esc(p.beds)}</span>`:''}</div><div class="card-actions"><button class="btn small" onclick="contactSeller('${esc(p.id)}')">Contact seller</button><button class="btn secondary small" onclick="details('${esc(p.id)}')">Details</button></div></div></article>`).join('');
+}
+function applySearch(){filter='all';document.querySelectorAll('.chip').forEach(b=>b.classList.toggle('active',b.dataset.filter==='all'));render();document.getElementById('properties').scrollIntoView({behavior:'smooth'})}
+function setFilter(v,el){filter=v;document.querySelectorAll('.chip').forEach(b=>b.classList.toggle('active',b===el));render()}
+function resetSearch(){document.getElementById('q').value='';document.getElementById('type').value='all';document.getElementById('budget').value='any';filter='all';document.querySelectorAll('.chip').forEach(b=>b.classList.toggle('active',b.dataset.filter==='all'));render()}
+function openListing(){document.getElementById('listingDialog').showModal()}
+function closeListing(){document.getElementById('listingDialog').close()}
+function toast(s){const t=document.getElementById('toast');t.textContent=s;t.style.display='block';setTimeout(()=>t.style.display='none',3200)}
+function details(id){const p=allListings().find(x=>x.id===id);if(!p)return;alert(`${p.title}\n${p.location}\nPrice: ${money(p.price)}\nSize: ${p.size}${p.beds?'\nBedrooms: '+p.beds:''}\n\n${p.desc||'No extra description provided.'}`)}
+function contactSeller(id){const p=allListings().find(x=>x.id===id);if(!p)return;if(!p.phone){alert('This is an illustrative demo listing, so seller contact details are not available. Add your real listing to test the contact flow.');return}const msg=encodeURIComponent(`Hello, I am interested in your property "${p.title}" listed on propertydallals in ${p.location}. Is it still available?`);const wa=p.phone.replace(/[^\d]/g,'');if(confirm('Press OK to contact via WhatsApp, or Cancel to call the seller.'))window.open(`https://wa.me/${wa}?text=${msg}`,'_blank','noopener');else window.location.href=`tel:${p.phone}`}
+document.getElementById('listingForm').addEventListener('submit',e=>{
+ e.preventDefault();
+ const phone=document.getElementById('sellerPhone').value.trim();
+ const p={id:'u'+Date.now(),name:document.getElementById('sellerName').value.trim(),phone,type:document.getElementById('pType').value,price:Number(document.getElementById('pPrice').value),title:document.getElementById('pTitle').value.trim(),location:document.getElementById('pLocation').value.trim(),size:document.getElementById('pSize').value.trim(),beds:document.getElementById('pBeds').value,photo:document.getElementById('pPhoto').value.trim(),desc:document.getElementById('pDesc').value.trim()};
+ const old=getUserListings();old.unshift(p);localStorage.setItem('pd_listings',JSON.stringify(old));e.target.reset();closeListing();filter='all';document.getElementById('q').value='';document.getElementById('type').value='all';document.getElementById('budget').value='any';render();document.getElementById('properties').scrollIntoView({behavior:'smooth'});toast('Listing saved in this browser. Connect a database to publish it online.');
+});
+render();
+</script>
+</body>
+</html>
